@@ -1,0 +1,72 @@
+body {
+  background: url("sign_image.jpg") no-repeat center center/cover;
+}
+
+input[type="text"] {
+  font-size: 20px;
+  border: 2px solid black;
+  padding: 8px 16px;
+  border-radius: 5px;
+  outline: none;
+  margin: 15px;
+}
+
+.heading {
+  font-size: 15px;
+  color: black;
+  text-decoration: underline;
+}
+
+#signup {
+  font-size: 25px;
+  margin: 25px;
+  border: 2px solid black;
+  width: 55%;
+  border-radius: 5px;
+  color: white;
+  box-shadow: 10px 10px rgba(128, 128, 128, 0.776);
+  background-color: rgba(0, 0, 0, 0.695);
+}
+
+#signup:hover {
+  background-color: rgba(270, 140, 0, 0.817);
+}
+
+#login:hover {
+  background-color: rgba(270, 140, 0, 0.817);
+}
+
+#login {
+  font-size: 25px;
+  margin: 25px;
+  border: 2px solid black;
+  width: 55%;
+  border-radius: 5px;
+  color: white;
+  box-shadow: 10px 10px rgba(128, 128, 128, 0.776);
+  background-color: rgba(0, 0, 0, 0.695);
+}
+
+.leftline {
+  float: left;
+}
+.middletext {
+  float: left;
+  color: black;
+}
+.rightline {
+  float: right;
+}
+
+.box {
+  display: flexbox;
+  flex-direction: column;
+  height: 650px;
+  width: 450px;
+  border: 2px solid black;
+  position: relative;
+  text-align: center;
+  color: black;
+  top: 50px;
+  left: 200px;
+}

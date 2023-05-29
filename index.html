@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome Page</title>
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/084123c8c1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <img class="bg" src="home_image.jpg" alt="background" />
+      <div class="navbar">
+        <div id="logo">
+          <div class="image"><img src="icons8-fry-64.png" alt="logo" /></div>
+          <div class="title">RECIPICA</div>
+        </div>
+        <div id="sign">
+          <img class="cheficon" src="icons8-chef-64.png" />
+          <a class="btnsign" href="sign.html">Sign up</a>
+        </div>
+      </div>
+
+      <div>
+        <h1 class="content">SAVOUR THE FLAVOUR OF LIFE.</h1>
+      </div>
+
+      <div class="startbtn">
+        <a id="btn">Get Started</a>
+        <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+      </div>
+    </div>
+    <div class="footer">All rights reserved.</div>
+    <script>
+      document.getElementById("btn").addEventListener("click", function () {
+        alert("Sign up to continue!");
+      });
+    </script>
+  </body>
+</html>

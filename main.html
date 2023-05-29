@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Page</title>
+    <link rel="stylesheet" href="main.css" />
+    <script
+      src="https://kit.fontawesome.com/084123c8c1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <div id="logo">
+        <div class="image"><img src="icons8-fry-64.png" alt="logo" /></div>
+        <div class="title">RECIPICA</div>
+      </div>
+      <div id="logout">
+        <img class="cheficon" src="icons8-chef-64.png" />
+        <a id="logbtn" href="index.html">Logout</a>
+      </div>
+    </div>
+
+    <div class="searchbar">
+      <input type="text" id="search" placeholder="Search Recipica...." />
+      <button class="searchbtn">Search</button>
+    </div>
+
+    <div class="results">
+      <h1 id="head">Your Search Results:</h1>
+      <div class="ingredients"></div>
+    </div>
+
+    <div class="information">
+      <button id="close">Close</button>
+      <div class="details">
+        <h2>Name</h2>
+        <div class="category">Category</div>
+        <h3>Instructions:</h3>
+        <p>Recipe Instructions</p>
+        <div>
+          <a href="#"><u>View Recipe</u></a>
+        </div>
+      </div>
+    </div>
+    
+    
+
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
